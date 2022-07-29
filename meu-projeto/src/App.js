@@ -1,23 +1,16 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld.js';
-import SayMyName from './components/SayMyName.js';
-import Pessoa from './components/Pessoa';
+import Condicional from './components/Condicional';
 
-const url = 'https://via.placeholder.com/150'
+//Esse arquivo serve como o index.html
 
 function App() {
 
-  const nome = 'Maria'
+  // const nome = 'Maria'
 
   return (
     <div className="App">
-      <div>
-        <HelloWorld/>
-        <SayMyName nome="Matheus" />
-        <SayMyName nome="João" />
-        <SayMyName nome={nome} />
-        <Pessoa nome="Augusto" idade="27" profissao="Programador" foto="https://via.placeholder.com/150"/>
-      </div>
+      <h1>Renderização Condicional</h1>
+      <Condicional />
     </div>
   );
 }

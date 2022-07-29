@@ -1,0 +1,14 @@
+/** Por padrão, cria-se esse css utilizando o mesmo nome do arquivo
+que será estilizado seguido de module.css ex: Frase.module.css 
+e é utilizado apra estilizar coisas básicas do projeto. **/
+
+.fraseContainer {
+  background-color: red;
+  border: 1px solid #111; 
+}
+
+.fraseContent {
+  color: #fff;
+  background-color: #333;
+  margin: 0;
+}

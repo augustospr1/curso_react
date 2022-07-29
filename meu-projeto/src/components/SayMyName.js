@@ -1,3 +1,5 @@
+// Props - usado para passar vários valores para esses caras lá no App.js
+
 function SayMyName(props) {
   return (
     <div>
